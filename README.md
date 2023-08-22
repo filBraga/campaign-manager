@@ -1,6 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Deploy on Vercel
+
+Projeto Frontend: Aplicativo de Interface de Gerenciamento de Campanhas do Facebook
+
+PRAZO: 22 de Agosto de 2023, às 12:00 em ponto, via repositório no github!
+
+Descrição:
+Desenvolva uma interface de usuário, para um painel de gerenciamento de campanhas, que permita os usuários listar e criar novas campanhas. (Tela: Listar campanhas e modal de criar novas campanhas)
+A interface deve incluir um cabeçalho, um menu lateral e uma seção de conteúdo principal.
+Utilize HTML, JS e CSS para exibir as informações básicas de cada campanha.
+Utilize JavaScript para fazer chamadas ao backend (listar e criar)
+Aplique estilos e componentes para melhorar a aparência
+Utilize bootstrap
+Esteja ciente das melhores práticas de UX
+Implementar uma comunicação mais flexível o backend.
+Cada campanha deve conter os seguintes atributos:
+
+ID único
+Nome da campanha
+Orçamento da campanha
+Publico da campanha
+Data de início
+Data de término
+Status da campanha (ativo, pausado, concluído, etc.)
+
+Itens Desejáveis:
+Conhecimentos avançados em UX.
+Implementações avançadas de segurança no frontend, como proteção contra XSS, CSRF e tokenização.
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
@@ -22,8 +51,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 

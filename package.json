@@ -1,22 +1,37 @@
 {
-  "name": "front",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@types/node": "20.5.1",
-    "@types/react": "18.2.20",
-    "@types/react-dom": "18.2.7",
-    "eslint": "8.47.0",
-    "eslint-config-next": "13.4.19",
-    "next": "13.4.19",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.1.6"
-  }
+    "name": "front",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@aws-amplify/ui-react": "^5.1.1",
+        "@emotion/react": "^11.11.1",
+        "@emotion/styled": "^11.11.0",
+        "@hookform/resolvers": "^3.2.0",
+        "@mui/icons-material": "^5.14.3",
+        "@mui/material": "^5.14.5",
+        "@reduxjs/toolkit": "^1.9.5",
+        "@types/node": "20.5.1",
+        "@types/react": "18.2.20",
+        "@types/react-dom": "18.2.7",
+        "aws-amplify": "^5.3.8",
+        "eslint": "8.47.0",
+        "eslint-config-next": "13.4.19",
+        "next": "13.4.19",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-modal": "^3.16.1",
+        "react-redux": "^8.1.2",
+        "sass": "^1.66.1",
+        "typescript": "5.1.6",
+        "yup": "^1.2.0"
+    },
+    "devDependencies": {
+        "@types/react-modal": "^3.16.0"
+    }
 }

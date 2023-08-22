@@ -1,0 +1,25 @@
+@import '../../styles/colors';
+
+.userListHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 10px;
+    color: #474747;
+}
+
+.editButton {
+    font-size: 12px;
+    color: #1f2c4c;
+    border-color: #1f2c4c;
+    box-shadow: none;
+    width: fit-content;
+}
+
+.newClientButton {
+    background-color: $--primary-color;
+}
+
+.newClientButton:hover {
+    background-color: $--primary-color-darker;
+}
