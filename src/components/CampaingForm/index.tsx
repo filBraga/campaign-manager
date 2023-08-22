@@ -21,7 +21,7 @@ const CampaignForm: React.FC = () => {
         handleSubmit,
         formState: { errors },
     } = useForm<CampaignType>({
-        resolver: yupResolver(schema) as Resolver,
+        resolver: yupResolver(schema) as any,
         mode: 'onChange',
     });
 
