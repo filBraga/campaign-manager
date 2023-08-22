@@ -12,7 +12,7 @@ type CampaignRowProps = {
     campaign: CampaignType;
 };
 
-function formatDate(inputDateString) {
+function formatDate(inputDateString: string) {
     const date = new Date(inputDateString);
 
     const year = date.getFullYear();
